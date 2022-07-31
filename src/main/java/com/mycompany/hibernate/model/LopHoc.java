@@ -4,6 +4,7 @@
  */
 package com.mycompany.hibernate.model;
 
+import java.io.Serializable;
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -20,7 +21,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "lophoc")
-public class LopHoc {
+public class LopHoc implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
