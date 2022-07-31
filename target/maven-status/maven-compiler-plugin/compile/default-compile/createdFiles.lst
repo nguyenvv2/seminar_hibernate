@@ -1,0 +1,6 @@
+model/SinhVien.class
+model/LopHoc.class
+com/mycompany/hibernate/hibernateDemo/HibernatUtil.class
+model/SinhVienCustom.class
+model/LopHocCustom.class
+com/mycompany/hibernate/buoi1/vidu1.class
